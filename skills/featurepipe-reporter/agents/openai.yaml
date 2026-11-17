@@ -1,0 +1,4 @@
+interface:
+  display_name: "FeaturePipe 采访写作"
+  short_description: "采访材料转中文特稿，核对来源、顺序修订，并比较提示词效果"
+  default_prompt: "使用 $featurepipe-reporter，把我提供的采访材料整理成中文特稿，并保留来源与修订记录。"

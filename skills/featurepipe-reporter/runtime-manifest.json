@@ -1,0 +1,91 @@
+{
+  "origin": "featurepipe independent reproduction",
+  "files": [
+    {
+      "source": "scripts/import_interviews.py",
+      "target": "scripts/helpers/import_interviews.py",
+      "sha256": "964358da4059d0b61c87d1cf194768cbe2cbda3279c3537d6cc7ba094d60d2db"
+    },
+    {
+      "source": "prompt_sets/paper-and-legacy-zh.json",
+      "target": "references/prompt-versions.json",
+      "sha256": "61408660bc6a7f618422b6d648d3031a1baddd1923b17d3e9d65ae7a825aa977"
+    },
+    {
+      "source": "evaluation/评价标准.json",
+      "target": "references/评价标准.json",
+      "sha256": "4b16f2bec4762479380c380d39bb39a1a277c1eef6cd76bbdd0a5e5035d732d9"
+    },
+    {
+      "source": "evaluation/论文访谈评价指南中文版.txt",
+      "target": "references/论文访谈评价指南中文版.txt",
+      "sha256": "8a4cdb0f32d2f0f4c2b754434665f436b09c1eb8f1986c612d4f970e21806bd8"
+    },
+    {
+      "source": "examples/case.json",
+      "target": "assets/mock-case.json",
+      "sha256": "cb80e25f5d3c4cfe786ea848bd5eb454185b2b4a1caff25d696c89adefd0c0be"
+    },
+    {
+      "source": "examples/borrow-room.json",
+      "target": "assets/interview-example.json",
+      "sha256": "7dbedb043dddefd76f22a4bfe342830faff21bd82df80b8790d6df9f661eb5c9"
+    },
+    {
+      "source": "LICENSE",
+      "target": "LICENSE",
+      "sha256": "d7129d5b6d035be50b23653361b122b6c7a38cf0e3c571afb27b4e495928b2b0"
+    },
+    {
+      "source": "featurepipe/__init__.py",
+      "target": "scripts/runtime/featurepipe/__init__.py",
+      "sha256": "4e4b4dda25e1bfcd90406401b7ab871847091154cbd7b15bd3d69cfb6d84a38b"
+    },
+    {
+      "source": "featurepipe/__main__.py",
+      "target": "scripts/runtime/featurepipe/__main__.py",
+      "sha256": "3bbb27aaecd4d4b3647b1858cc1c343e3f8722d58df6eac49323fa996b936110"
+    },
+    {
+      "source": "featurepipe/client.py",
+      "target": "scripts/runtime/featurepipe/client.py",
+      "sha256": "3a7fca9de53910d62abf066e3477a33dfa022b31ea441fa7de532a630490a765"
+    },
+    {
+      "source": "featurepipe/config.py",
+      "target": "scripts/runtime/featurepipe/config.py",
+      "sha256": "fe683471aae88c3941da77b8002b079d56bebcd844683edfc7b92ee4c157fd6a"
+    },
+    {
+      "source": "featurepipe/continue_revision.py",
+      "target": "scripts/runtime/featurepipe/continue_revision.py",
+      "sha256": "0aded96466e9782fc7e556f49f98e1f612d4b23e771468338fa01e2504775a3c"
+    },
+    {
+      "source": "featurepipe/core.py",
+      "target": "scripts/runtime/featurepipe/core.py",
+      "sha256": "294db0b34219199ac774a0e9e2b9de50978dd3dc4c14b18b9018b02d07a46b76"
+    },
+    {
+      "source": "featurepipe/evidence.py",
+      "target": "scripts/runtime/featurepipe/evidence.py",
+      "sha256": "4dbd1977b774a2c0a73f98f96f4d109713947d4e7320e1418cfdc0150b829818"
+    },
+    {
+      "source": "featurepipe/paper_experiment.py",
+      "target": "scripts/runtime/featurepipe/paper_experiment.py",
+      "sha256": "52b74e9573b1a3d5f51e231cf6798613e9623f784cd1d3712b3ea83a28147cfa"
+    },
+    {
+      "source": "featurepipe/prompts.py",
+      "target": "scripts/runtime/featurepipe/prompts.py",
+      "sha256": "84ad121160cd421b1def0233ac5eed56cf8b408e279aa0e9b5bd6ab509c226ef"
+    },
+    {
+      "source": "featurepipe/spend.py",
+      "target": "scripts/runtime/featurepipe/spend.py",
+      "sha256": "5a85cdf994acd0e831433e41ffe187ed812309607a1ed8d9340ce674b91683d3"
+    }
+  ],
+  "contains_private_inputs": false
+}

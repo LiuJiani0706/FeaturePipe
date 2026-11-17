@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+.DS_Store
+.venv/
+__pycache__/
+*.egg-info/
+runs/
+release/
+*-source-manifest.json
+*.log
